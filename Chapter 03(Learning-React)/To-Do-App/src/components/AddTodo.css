@@ -1,0 +1,8 @@
+.task-add-container {
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
