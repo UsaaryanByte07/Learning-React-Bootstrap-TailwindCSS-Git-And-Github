@@ -193,6 +193,32 @@ A comprehensive guide for setting up and configuring modern web development proj
 
 ---
 
+## 🟢 Node.js Project with Nodemon
+
+### Initialization & Setup
+
+1. **Initialize Node.js project**
+   ```bash
+   npm init
+   ```
+   Initializes a new Node.js project. You will be prompted to enter project details.
+
+2. **Install Nodemon**
+   ```bash
+   npm install nodemon --save-dev
+   ```
+   Installs Nodemon as a development dependency to automatically restart the server when file changes are detected.
+
+3. **Configure start script**
+
+   Add this line to the `scripts` section in your `package.json`:
+   ```json
+   "start": "nodemon App.js"
+   ```
+   This allows you to start your application using `npm start`.
+
+---
+
 ## 📝 Notes
 
 - Always run `npm install` after cloning a project or adding new dependencies
